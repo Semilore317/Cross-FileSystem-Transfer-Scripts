@@ -11,5 +11,5 @@ Write-Host ">> Attaching Disk 0 to WSL..."
 wsl --mount \\.\PHYSICALDRIVE0 --bare
 
 Write-Host ">> SUCCESS: The drive is now passed to WSL."
-Write-Host ">> Next Step: Run 'sudo ./cold_storage.sh /mnt/c/path/to/game' in your Debian terminal."
+Write-Host ">> Next Step: Run 'sudo ./cold_storage.sh /mnt/c/path/to/game' in Debian terminal."
 Pause
